@@ -11,6 +11,7 @@ public class Solitaire : MonoBehaviour
     public GameObject[] stacks;
     public GameObject[] suits;
     public GameObject deckSpot;
+    public float offset;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +36,7 @@ public class Solitaire : MonoBehaviour
         {
             for (int j = 0; j <= i; j++)
             {
-                GameObject card = Instantiate(deck[cardIndex], stacks[i].transform);
+                GameObject card = Instantiate(deck[cardIndex], stacks[i].transform.position - new Vector3(0, j * offset, j * offset), Quaternion.identity);
                 cardIndex++;
 
                 if (j == i)
@@ -50,7 +51,15 @@ public class Solitaire : MonoBehaviour
             GameObject card = Instantiate(deck[i], deckSpot.transform);
         }
 
-        Debug.Log(deck);
+        RemoveOriginalCards();
+    }
+
+    void RemoveOriginalCards()
+    {
+        foreach (GameObject card in cards)
+        {
+            Destroy(card);
+        }
     }
 
     // Update is called once per frame
