@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 4185868}
   - component: {fileID: 4185869}
   - component: {fileID: 4185870}
+  - component: {fileID: 4185871}
   m_Layer: 0
   m_Name: CuteCards_9
   m_TagString: Untagged
@@ -222,6 +223,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 9
+--- !u!61 &4185871
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4185867}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &55086411
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +260,7 @@ GameObject:
   - component: {fileID: 55086412}
   - component: {fileID: 55086413}
   - component: {fileID: 55086414}
+  - component: {fileID: 55086415}
   m_Layer: 0
   m_Name: CuteCards_11
   m_TagString: Untagged
@@ -321,6 +349,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 11
+--- !u!61 &55086415
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55086411}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &98067780
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +418,7 @@ GameObject:
   - component: {fileID: 125729957}
   - component: {fileID: 125729958}
   - component: {fileID: 125729959}
+  - component: {fileID: 125729960}
   m_Layer: 0
   m_Name: CuteCards_6
   m_TagString: Untagged
@@ -452,6 +507,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 6
+--- !u!61 &125729960
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125729956}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &132671643
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +544,7 @@ GameObject:
   - component: {fileID: 132671644}
   - component: {fileID: 132671645}
   - component: {fileID: 132671646}
+  - component: {fileID: 132671647}
   m_Layer: 0
   m_Name: CuteCards_57
   m_TagString: Untagged
@@ -551,6 +633,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 0
+--- !u!61 &132671647
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132671643}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &194829000
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +670,7 @@ GameObject:
   - component: {fileID: 194829001}
   - component: {fileID: 194829002}
   - component: {fileID: 194829003}
+  - component: {fileID: 194829004}
   m_Layer: 0
   m_Name: CuteCards_35
   m_TagString: Untagged
@@ -650,6 +759,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 5
+--- !u!61 &194829004
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194829000}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &211285939
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +796,7 @@ GameObject:
   - component: {fileID: 211285940}
   - component: {fileID: 211285941}
   - component: {fileID: 211285942}
+  - component: {fileID: 211285943}
   m_Layer: 0
   m_Name: CuteCards_4
   m_TagString: Untagged
@@ -749,6 +885,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 4
+--- !u!61 &211285943
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211285939}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &258014712
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +922,7 @@ GameObject:
   - component: {fileID: 258014713}
   - component: {fileID: 258014714}
   - component: {fileID: 258014715}
+  - component: {fileID: 258014716}
   m_Layer: 0
   m_Name: CuteCards_53
   m_TagString: Untagged
@@ -848,6 +1011,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 8
+--- !u!61 &258014716
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258014712}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &266987845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,6 +1245,7 @@ GameObject:
   - component: {fileID: 289878824}
   - component: {fileID: 289878825}
   - component: {fileID: 289878826}
+  - component: {fileID: 289878827}
   m_Layer: 0
   m_Name: CuteCards_3
   m_TagString: Untagged
@@ -1144,6 +1334,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 3
+--- !u!61 &289878827
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289878823}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &293651896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,6 +1500,7 @@ GameObject:
   - component: {fileID: 325703663}
   - component: {fileID: 325703664}
   - component: {fileID: 325703665}
+  - component: {fileID: 325703666}
   m_Layer: 0
   m_Name: CuteCards_34
   m_TagString: Untagged
@@ -1372,6 +1589,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 4
+--- !u!61 &325703666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325703662}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &373161823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,6 +1626,7 @@ GameObject:
   - component: {fileID: 373161824}
   - component: {fileID: 373161825}
   - component: {fileID: 373161826}
+  - component: {fileID: 373161827}
   m_Layer: 0
   m_Name: CuteCards_15
   m_TagString: Untagged
@@ -1471,6 +1715,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 1
+--- !u!61 &373161827
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373161823}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &382734052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,6 +1752,7 @@ GameObject:
   - component: {fileID: 382734053}
   - component: {fileID: 382734054}
   - component: {fileID: 382734055}
+  - component: {fileID: 382734056}
   m_Layer: 0
   m_Name: CuteCards_0
   m_TagString: Untagged
@@ -1570,6 +1841,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 0
+--- !u!61 &382734056
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382734052}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &448965291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,6 +1878,7 @@ GameObject:
   - component: {fileID: 448965292}
   - component: {fileID: 448965293}
   - component: {fileID: 448965294}
+  - component: {fileID: 448965295}
   m_Layer: 0
   m_Name: CuteCards_25
   m_TagString: Untagged
@@ -1669,6 +1967,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 10
+--- !u!61 &448965295
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448965291}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &450694014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,6 +2047,7 @@ GameObject:
   - component: {fileID: 467394156}
   - component: {fileID: 467394157}
   - component: {fileID: 467394158}
+  - component: {fileID: 467394159}
   m_Layer: 0
   m_Name: CuteCards_48
   m_TagString: Untagged
@@ -1811,6 +2136,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 3
+--- !u!61 &467394159
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467394155}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &477668153
 GameObject:
   m_ObjectHideFlags: 0
@@ -2027,6 +2378,7 @@ GameObject:
   - component: {fileID: 508472363}
   - component: {fileID: 508472364}
   - component: {fileID: 508472365}
+  - component: {fileID: 508472366}
   m_Layer: 0
   m_Name: CuteCards_46
   m_TagString: Untagged
@@ -2115,6 +2467,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 1
+--- !u!61 &508472366
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508472362}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &509661604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2126,6 +2504,7 @@ GameObject:
   - component: {fileID: 509661605}
   - component: {fileID: 509661606}
   - component: {fileID: 509661607}
+  - component: {fileID: 509661608}
   m_Layer: 0
   m_Name: CuteCards_38
   m_TagString: Untagged
@@ -2214,6 +2593,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 8
+--- !u!61 &509661608
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509661604}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2343,6 +2748,7 @@ GameObject:
   - component: {fileID: 539109506}
   - component: {fileID: 539109507}
   - component: {fileID: 539109508}
+  - component: {fileID: 539109509}
   m_Layer: 0
   m_Name: CuteCards_12
   m_TagString: Untagged
@@ -2431,6 +2837,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 12
+--- !u!61 &539109509
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539109505}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &550421727
 GameObject:
   m_ObjectHideFlags: 0
@@ -2442,6 +2874,7 @@ GameObject:
   - component: {fileID: 550421728}
   - component: {fileID: 550421729}
   - component: {fileID: 550421730}
+  - component: {fileID: 550421731}
   m_Layer: 0
   m_Name: CuteCards_55
   m_TagString: Untagged
@@ -2530,6 +2963,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 10
+--- !u!61 &550421731
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550421727}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &616156417
 GameObject:
   m_ObjectHideFlags: 0
@@ -2541,6 +3000,7 @@ GameObject:
   - component: {fileID: 616156418}
   - component: {fileID: 616156419}
   - component: {fileID: 616156420}
+  - component: {fileID: 616156421}
   m_Layer: 0
   m_Name: CuteCards_31
   m_TagString: Untagged
@@ -2629,6 +3089,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 1
+--- !u!61 &616156421
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616156417}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,6 +3237,7 @@ GameObject:
   - component: {fileID: 625561490}
   - component: {fileID: 625561491}
   - component: {fileID: 625561492}
+  - component: {fileID: 625561493}
   m_Layer: 0
   m_Name: CuteCards_1
   m_TagString: Untagged
@@ -2839,6 +3326,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 1
+--- !u!61 &625561493
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625561489}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &644820173
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,6 +3363,7 @@ GameObject:
   - component: {fileID: 644820174}
   - component: {fileID: 644820175}
   - component: {fileID: 644820176}
+  - component: {fileID: 644820177}
   m_Layer: 0
   m_Name: CuteCards_37
   m_TagString: Untagged
@@ -2938,6 +3452,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 7
+--- !u!61 &644820177
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644820173}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &745161709
 GameObject:
   m_ObjectHideFlags: 0
@@ -3025,6 +3565,7 @@ GameObject:
   - component: {fileID: 765230454}
   - component: {fileID: 765230455}
   - component: {fileID: 765230456}
+  - component: {fileID: 765230457}
   m_Layer: 0
   m_Name: CuteCards_19
   m_TagString: Untagged
@@ -3113,6 +3654,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 4
+--- !u!61 &765230457
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765230453}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &766064893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3124,6 +3691,7 @@ GameObject:
   - component: {fileID: 766064894}
   - component: {fileID: 766064895}
   - component: {fileID: 766064896}
+  - component: {fileID: 766064897}
   m_Layer: 0
   m_Name: CuteCards_52
   m_TagString: Untagged
@@ -3212,6 +3780,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 7
+--- !u!61 &766064897
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766064893}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &781295430
 GameObject:
   m_ObjectHideFlags: 0
@@ -3223,6 +3817,7 @@ GameObject:
   - component: {fileID: 781295431}
   - component: {fileID: 781295432}
   - component: {fileID: 781295433}
+  - component: {fileID: 781295434}
   m_Layer: 0
   m_Name: CuteCards_56
   m_TagString: Untagged
@@ -3311,6 +3906,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 12
+--- !u!61 &781295434
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781295430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &796639215
 GameObject:
   m_ObjectHideFlags: 0
@@ -3322,6 +3943,7 @@ GameObject:
   - component: {fileID: 796639216}
   - component: {fileID: 796639217}
   - component: {fileID: 796639218}
+  - component: {fileID: 796639219}
   m_Layer: 0
   m_Name: CuteCards_42
   m_TagString: Untagged
@@ -3410,6 +4032,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 12
+--- !u!61 &796639219
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796639215}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &837327277
 GameObject:
   m_ObjectHideFlags: 0
@@ -3421,6 +4069,7 @@ GameObject:
   - component: {fileID: 837327278}
   - component: {fileID: 837327279}
   - component: {fileID: 837327280}
+  - component: {fileID: 837327281}
   m_Layer: 0
   m_Name: CuteCards_8
   m_TagString: Untagged
@@ -3509,6 +4158,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 8
+--- !u!61 &837327281
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 837327277}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &892862558
 GameObject:
   m_ObjectHideFlags: 0
@@ -3655,6 +4330,7 @@ GameObject:
   - component: {fileID: 909664534}
   - component: {fileID: 909664535}
   - component: {fileID: 909664536}
+  - component: {fileID: 909664537}
   m_Layer: 0
   m_Name: CuteCards_40
   m_TagString: Untagged
@@ -3743,6 +4419,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 10
+--- !u!61 &909664537
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909664533}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &918863695
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,6 +4698,7 @@ GameObject:
   - component: {fileID: 1137659744}
   - component: {fileID: 1137659745}
   - component: {fileID: 1137659746}
+  - component: {fileID: 1137659747}
   m_Layer: 0
   m_Name: CuteCards_20
   m_TagString: Untagged
@@ -4084,6 +4787,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 5
+--- !u!61 &1137659747
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137659743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1141785845
 GameObject:
   m_ObjectHideFlags: 0
@@ -4095,6 +4824,7 @@ GameObject:
   - component: {fileID: 1141785846}
   - component: {fileID: 1141785847}
   - component: {fileID: 1141785848}
+  - component: {fileID: 1141785849}
   m_Layer: 0
   m_Name: CuteCards_18
   m_TagString: Untagged
@@ -4183,6 +4913,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 3
+--- !u!61 &1141785849
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141785845}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1235092576
 GameObject:
   m_ObjectHideFlags: 0
@@ -4194,6 +4950,7 @@ GameObject:
   - component: {fileID: 1235092577}
   - component: {fileID: 1235092578}
   - component: {fileID: 1235092579}
+  - component: {fileID: 1235092580}
   m_Layer: 0
   m_Name: CuteCards_32
   m_TagString: Untagged
@@ -4282,6 +5039,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 2
+--- !u!61 &1235092580
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235092576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1241317435
 GameObject:
   m_ObjectHideFlags: 0
@@ -4293,6 +5076,7 @@ GameObject:
   - component: {fileID: 1241317436}
   - component: {fileID: 1241317437}
   - component: {fileID: 1241317438}
+  - component: {fileID: 1241317439}
   m_Layer: 0
   m_Name: CuteCards_27
   m_TagString: Untagged
@@ -4381,6 +5165,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 12
+--- !u!61 &1241317439
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241317435}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1262291319
 GameObject:
   m_ObjectHideFlags: 0
@@ -4491,6 +5301,7 @@ MonoBehaviour:
   - {fileID: 0}
   deckSpot: {fileID: 2051349704}
   offset: 0.2
+  dealDelay: 0.02
 --- !u!4 &1262291322
 Transform:
   m_ObjectHideFlags: 0
@@ -4517,6 +5328,7 @@ GameObject:
   - component: {fileID: 1267263651}
   - component: {fileID: 1267263652}
   - component: {fileID: 1267263653}
+  - component: {fileID: 1267263654}
   m_Layer: 0
   m_Name: CuteCards_54
   m_TagString: Untagged
@@ -4605,6 +5417,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 9
+--- !u!61 &1267263654
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267263650}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1279232010
 GameObject:
   m_ObjectHideFlags: 0
@@ -4616,6 +5454,7 @@ GameObject:
   - component: {fileID: 1279232011}
   - component: {fileID: 1279232012}
   - component: {fileID: 1279232013}
+  - component: {fileID: 1279232014}
   m_Layer: 0
   m_Name: CuteCards_33
   m_TagString: Untagged
@@ -4704,6 +5543,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 3
+--- !u!61 &1279232014
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279232010}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1317621538
 GameObject:
   m_ObjectHideFlags: 0
@@ -4844,6 +5709,7 @@ GameObject:
   - component: {fileID: 1395315165}
   - component: {fileID: 1395315166}
   - component: {fileID: 1395315167}
+  - component: {fileID: 1395315168}
   m_Layer: 0
   m_Name: CuteCards_36
   m_TagString: Untagged
@@ -4932,6 +5798,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 6
+--- !u!61 &1395315168
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395315164}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1468479300
 GameObject:
   m_ObjectHideFlags: 0
@@ -4943,6 +5835,7 @@ GameObject:
   - component: {fileID: 1468479301}
   - component: {fileID: 1468479302}
   - component: {fileID: 1468479303}
+  - component: {fileID: 1468479304}
   m_Layer: 0
   m_Name: CuteCards_23
   m_TagString: Untagged
@@ -5031,6 +5924,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 8
+--- !u!61 &1468479304
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468479300}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1476675327
 GameObject:
   m_ObjectHideFlags: 0
@@ -5042,6 +5961,7 @@ GameObject:
   - component: {fileID: 1476675328}
   - component: {fileID: 1476675329}
   - component: {fileID: 1476675330}
+  - component: {fileID: 1476675331}
   m_Layer: 0
   m_Name: CuteCards_16
   m_TagString: Untagged
@@ -5130,6 +6050,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 0
+--- !u!61 &1476675331
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476675327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1531317601
 GameObject:
   m_ObjectHideFlags: 0
@@ -5224,6 +6170,7 @@ GameObject:
   - component: {fileID: 1568450925}
   - component: {fileID: 1568450926}
   - component: {fileID: 1568450927}
+  - component: {fileID: 1568450928}
   m_Layer: 0
   m_Name: CuteCards_41
   m_TagString: Untagged
@@ -5312,6 +6259,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 11
+--- !u!61 &1568450928
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568450924}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1598400026
 GameObject:
   m_ObjectHideFlags: 0
@@ -5323,6 +6296,7 @@ GameObject:
   - component: {fileID: 1598400027}
   - component: {fileID: 1598400028}
   - component: {fileID: 1598400029}
+  - component: {fileID: 1598400030}
   m_Layer: 0
   m_Name: CuteCards_47
   m_TagString: Untagged
@@ -5411,6 +6385,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 2
+--- !u!61 &1598400030
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598400026}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1627932726
 GameObject:
   m_ObjectHideFlags: 0
@@ -5422,6 +6422,7 @@ GameObject:
   - component: {fileID: 1627932727}
   - component: {fileID: 1627932728}
   - component: {fileID: 1627932729}
+  - component: {fileID: 1627932730}
   m_Layer: 0
   m_Name: CuteCards_17
   m_TagString: Untagged
@@ -5510,6 +6511,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 2
+--- !u!61 &1627932730
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627932726}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1644894793
 GameObject:
   m_ObjectHideFlags: 0
@@ -5597,6 +6624,7 @@ GameObject:
   - component: {fileID: 1697183480}
   - component: {fileID: 1697183481}
   - component: {fileID: 1697183482}
+  - component: {fileID: 1697183483}
   m_Layer: 0
   m_Name: CuteCards_2
   m_TagString: Untagged
@@ -5685,6 +6713,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 2
+--- !u!61 &1697183483
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697183479}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1700269925
 GameObject:
   m_ObjectHideFlags: 0
@@ -5696,6 +6750,7 @@ GameObject:
   - component: {fileID: 1700269926}
   - component: {fileID: 1700269927}
   - component: {fileID: 1700269928}
+  - component: {fileID: 1700269929}
   m_Layer: 0
   m_Name: CuteCards_21
   m_TagString: Untagged
@@ -5784,6 +6839,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 6
+--- !u!61 &1700269929
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700269925}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1783782624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5924,6 +7005,7 @@ GameObject:
   - component: {fileID: 1788222545}
   - component: {fileID: 1788222546}
   - component: {fileID: 1788222547}
+  - component: {fileID: 1788222548}
   m_Layer: 0
   m_Name: CuteCards_45
   m_TagString: Untagged
@@ -6012,6 +7094,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 0
+--- !u!61 &1788222548
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788222544}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1790998372
 GameObject:
   m_ObjectHideFlags: 0
@@ -6023,6 +7131,7 @@ GameObject:
   - component: {fileID: 1790998373}
   - component: {fileID: 1790998374}
   - component: {fileID: 1790998375}
+  - component: {fileID: 1790998376}
   m_Layer: 0
   m_Name: CuteCards_22
   m_TagString: Untagged
@@ -6111,6 +7220,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 7
+--- !u!61 &1790998376
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790998372}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1821810462
 GameObject:
   m_ObjectHideFlags: 0
@@ -6122,6 +7257,7 @@ GameObject:
   - component: {fileID: 1821810463}
   - component: {fileID: 1821810464}
   - component: {fileID: 1821810465}
+  - component: {fileID: 1821810466}
   m_Layer: 0
   m_Name: CuteCards_39
   m_TagString: Untagged
@@ -6210,6 +7346,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 9
+--- !u!61 &1821810466
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821810462}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1887023200
 GameObject:
   m_ObjectHideFlags: 0
@@ -6221,6 +7383,7 @@ GameObject:
   - component: {fileID: 1887023201}
   - component: {fileID: 1887023202}
   - component: {fileID: 1887023203}
+  - component: {fileID: 1887023204}
   m_Layer: 0
   m_Name: CuteCards_26
   m_TagString: Untagged
@@ -6309,6 +7472,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 11
+--- !u!61 &1887023204
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887023200}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1898376677
 GameObject:
   m_ObjectHideFlags: 0
@@ -6472,6 +7661,7 @@ GameObject:
   - component: {fileID: 1980594191}
   - component: {fileID: 1980594192}
   - component: {fileID: 1980594193}
+  - component: {fileID: 1980594194}
   m_Layer: 0
   m_Name: CuteCards_7
   m_TagString: Untagged
@@ -6560,6 +7750,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 7
+--- !u!61 &1980594194
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980594190}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &1994001788
 GameObject:
   m_ObjectHideFlags: 0
@@ -6571,6 +7787,7 @@ GameObject:
   - component: {fileID: 1994001789}
   - component: {fileID: 1994001790}
   - component: {fileID: 1994001791}
+  - component: {fileID: 1994001792}
   m_Layer: 0
   m_Name: CuteCards_24
   m_TagString: Untagged
@@ -6659,6 +7876,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 1
   rank: 9
+--- !u!61 &1994001792
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994001788}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &2010567571
 GameObject:
   m_ObjectHideFlags: 0
@@ -6670,6 +7913,7 @@ GameObject:
   - component: {fileID: 2010567572}
   - component: {fileID: 2010567573}
   - component: {fileID: 2010567574}
+  - component: {fileID: 2010567575}
   m_Layer: 0
   m_Name: CuteCards_50
   m_TagString: Untagged
@@ -6758,6 +8002,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 5
+--- !u!61 &2010567575
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010567571}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &2034711751
 GameObject:
   m_ObjectHideFlags: 0
@@ -6769,6 +8039,7 @@ GameObject:
   - component: {fileID: 2034711752}
   - component: {fileID: 2034711753}
   - component: {fileID: 2034711754}
+  - component: {fileID: 2034711755}
   m_Layer: 0
   m_Name: CuteCards_5
   m_TagString: Untagged
@@ -6857,6 +8128,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 5
+--- !u!61 &2034711755
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034711751}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &2038501475
 GameObject:
   m_ObjectHideFlags: 0
@@ -6868,6 +8165,7 @@ GameObject:
   - component: {fileID: 2038501476}
   - component: {fileID: 2038501477}
   - component: {fileID: 2038501478}
+  - component: {fileID: 2038501479}
   m_Layer: 0
   m_Name: CuteCards_10
   m_TagString: Untagged
@@ -6956,6 +8254,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 3
   rank: 10
+--- !u!61 &2038501479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038501475}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &2041751775
 GameObject:
   m_ObjectHideFlags: 0
@@ -6967,6 +8291,7 @@ GameObject:
   - component: {fileID: 2041751776}
   - component: {fileID: 2041751777}
   - component: {fileID: 2041751778}
+  - component: {fileID: 2041751779}
   m_Layer: 0
   m_Name: CuteCards_30
   m_TagString: Untagged
@@ -7055,6 +8380,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 2
   rank: 0
+--- !u!61 &2041751779
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041751775}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &2051349704
 GameObject:
   m_ObjectHideFlags: 0
@@ -7142,6 +8493,7 @@ GameObject:
   - component: {fileID: 2065168812}
   - component: {fileID: 2065168813}
   - component: {fileID: 2065168814}
+  - component: {fileID: 2065168815}
   m_Layer: 0
   m_Name: CuteCards_51
   m_TagString: Untagged
@@ -7230,6 +8582,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 6
+--- !u!61 &2065168815
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065168811}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
 --- !u!1 &2069111968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7418,6 +8796,7 @@ GameObject:
   - component: {fileID: 2136047533}
   - component: {fileID: 2136047534}
   - component: {fileID: 2136047535}
+  - component: {fileID: 2136047536}
   m_Layer: 0
   m_Name: CuteCards_49
   m_TagString: Untagged
@@ -7506,3 +8885,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   suit: 0
   rank: 4
+--- !u!61 &2136047536
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136047532}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.36}
+    newSize: {x: 0.92, y: 1.36}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.92, y: 1.36}
+  m_EdgeRadius: 0
