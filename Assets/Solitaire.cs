@@ -5,6 +5,9 @@ using UnityEngine;
 public class Solitaire : MonoBehaviour
 {
     public GameObject[] cards;
+    public GameObject CardTemplate;
+    public Sprite backSprite;
+    public List<Sprite> cardSprites = new List<Sprite>();
 
     private List<GameObject> deck;
 
@@ -22,7 +25,22 @@ public class Solitaire : MonoBehaviour
 
     IEnumerator setupGame()
     {
-        deck = new List<GameObject>(cards);
+        deck = new List<GameObject>();
+        
+        int cardIndex = 0;
+
+        for (int i = cardIndex; i < cardSprites.Count; i++)
+        {
+            GameObject card = Instantiate(CardTemplate, deckSpot.transform);
+            card.transform.position = new Vector3(card.transform.position.x, card.transform.position.y - offset * (i - cardIndex), card.transform.position.z);
+            
+            SpriteRenderer front = card.transform.Find("Front").GetComponent<SpriteRenderer>();
+            front.sprite = cardSprites[i];
+            SpriteRenderer back = card.transform.Find("Back").GetComponent<SpriteRenderer>();
+            back.sprite = backSprite;
+
+            yield return new WaitForSeconds(dealDelay);
+        }
 
         for (int i = 0; i < deck.Count; i++)
         {
@@ -32,13 +50,13 @@ public class Solitaire : MonoBehaviour
             deck[randomIndex] = temp;
         }
 
-        int cardIndex = 0;
         for (int i = 0; i < stacks.Length; i++)
         {
             for (int j = 0; j <= i; j++)
             {
-                GameObject card = Instantiate(deck[cardIndex], stacks[i].transform.position - new Vector3(0, j * offset, j * offset), Quaternion.identity);
-                
+                GameObject card = Instantiate(CardTemplate, stacks[i].transform.position - new Vector3(0, j * offset, j * offset), Quaternion.identity);
+                card.transform.SetSiblingIndex(j);
+
                 cardIndex++;
 
                 if (j == i)
@@ -47,22 +65,6 @@ public class Solitaire : MonoBehaviour
                 }
                 yield return new WaitForSeconds(dealDelay);
             }
-        }
-
-        for (int i = cardIndex; i < deck.Count; i++)
-        {
-            GameObject card = Instantiate(deck[i], deckSpot.transform);
-            yield return new WaitForSeconds(dealDelay);
-        }
-
-        RemoveOriginalCards();
-    }
-
-    void RemoveOriginalCards()
-    {
-        foreach (GameObject card in cards)
-        {
-            Destroy(card);
         }
     }
 
