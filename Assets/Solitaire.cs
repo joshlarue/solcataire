@@ -25,43 +25,57 @@ public class Solitaire : MonoBehaviour
 
     IEnumerator setupGame()
     {
-        deck = new List<GameObject>();
-        
-        int cardIndex = 0;
+        deck = new List<GameObject>(cards);
+        List<GameObject> createdCards = new List<GameObject>();
 
-        for (int i = cardIndex; i < cardSprites.Count; i++)
+        // Create and store cards
+        for (int i = 0; i < cardSprites.Count; i++)
         {
             GameObject card = Instantiate(CardTemplate, deckSpot.transform);
-            card.transform.position = new Vector3(card.transform.position.x, card.transform.position.y - offset * (i - cardIndex), card.transform.position.z);
+            card.transform.position = deckSpot.transform.position;//= new Vector3(card.transform.position.x, card.transform.position.y - offset * i, card.transform.position.z);
             
+            Card cardScript = card.GetComponent<Card>();
+            cardScript.rank = (Rank)(i / 4);
+            cardScript.suit = (Suit)(i % 4);
+
             SpriteRenderer front = card.transform.Find("Front").GetComponent<SpriteRenderer>();
             front.sprite = cardSprites[i];
             SpriteRenderer back = card.transform.Find("Back").GetComponent<SpriteRenderer>();
             back.sprite = backSprite;
 
+            cardScript.LoadCardSprite();
+            createdCards.Add(card);
+
             yield return new WaitForSeconds(dealDelay);
         }
 
-        for (int i = 0; i < deck.Count; i++)
+        // Shuffle createdCards
+        for (int i = 0; i < createdCards.Count; i++)
         {
-            GameObject temp = deck[i];
-            int randomIndex = Random.Range(i, deck.Count);
-            deck[i] = deck[randomIndex];
-            deck[randomIndex] = temp;
+            GameObject temp = createdCards[i];
+            int randomIndex = Random.Range(i, createdCards.Count);
+            createdCards[i] = createdCards[randomIndex];
+            createdCards[randomIndex] = temp;
         }
 
+        int cardIndex = 0;
         for (int i = 0; i < stacks.Length; i++)
         {
             for (int j = 0; j <= i; j++)
             {
-                GameObject card = Instantiate(CardTemplate, stacks[i].transform.position - new Vector3(0, j * offset, j * offset), Quaternion.identity);
-                card.transform.SetSiblingIndex(j);
+                GameObject card = createdCards[cardIndex++];
+                card.transform.position = stacks[i].transform.position - new Vector3(0, j * offset, j);//, Quaternion.identity;
+                //card.transform.SetSiblingIndex(j);
 
-                cardIndex++;
+                //cardIndex++;
 
                 if (j == i)
                 {
                     card.GetComponent<Card>().FlipFaceUp();
+                }
+                else
+                {
+                    card.GetComponent<Card>().FlipFaceDown();
                 }
                 yield return new WaitForSeconds(dealDelay);
             }
