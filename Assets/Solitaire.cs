@@ -11,6 +11,8 @@ public class Solitaire : MonoBehaviour
 
     private List<GameObject> deck;
 
+    public Card card;
+
     public GameObject[] stacks;
     public GameObject[] suits;
     public GameObject deckSpot;
@@ -80,6 +82,9 @@ public class Solitaire : MonoBehaviour
                 yield return new WaitForSeconds(dealDelay);
             }
         }
+        Destroy(CardTemplate);
+        Debug.Log(deck.Count);
+
     }
 
     // Update is called once per frame
@@ -96,8 +101,8 @@ public class Solitaire : MonoBehaviour
                 Card hitCard = hit.collider.GetComponent<Card>();
                 if (hitCard != null)
                 {
-                    cardInteractionLogic();
-                    Debug.Log("touched card: " + hitCard.name);
+                    //CardTemplate.GetComponent<Card>().cardInteractionLogic();
+                    //Debug.Log("touched card: " + hitCard.name);
                 }
             }
         }
@@ -110,16 +115,11 @@ public class Solitaire : MonoBehaviour
                 Card hitCard = hit.collider.GetComponent<Card>();
                 if (hitCard != null)
                 {
-                    cardInteractionLogic();
-                    Debug.Log("clicked card: " + hitCard.suit + hitCard.rank);
+                    //CardTemplate.GetComponent<Card>().cardInteractionLogic();
+                    //Debug.Log("clicked card: " + hitCard.suit + hitCard.rank);
                 }
             }
         }
         #endif
-    }
-
-    void cardInteractionLogic()
-    {
-
     }
 }

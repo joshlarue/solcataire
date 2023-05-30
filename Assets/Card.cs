@@ -31,9 +31,13 @@ public class Card : MonoBehaviour
 {
     public Suit suit;
     public Rank rank;
-
     private SpriteRenderer front;
     private SpriteRenderer back;
+    public float offset;
+    private Vector3 originalPosition;
+    private Vector3 mousePosition;
+    private bool isHeld;
+    private Card collidingCard;
 
     private void Awake()
     {
@@ -91,15 +95,86 @@ public class Card : MonoBehaviour
         }
     }
 
+
+
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
+    void OnMouseDown()
+    {
+        isHeld = true;
+        Debug.Log($"Picked up {rank} of {suit}");
+        cardInteractionLogic();
+    }
+
+private Card otherCard;
+    void OnMouseUp()
+    {
+        isHeld = false;
+        if (cardInteractionLogic()) // if cardlogic returns true
+        {            
+            Debug.Log("CARDLOGIC TRUE");
+            this.transform.position = otherCard.transform.position;
+            front.sortingOrder = 1000;
+        }
+        else
+        {
+            Debug.Log("CARDLOGIC FALSE");
+            this.transform.position = originalPosition;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        otherCard = collision.gameObject.GetComponent<Card>();
+        Debug.Log($"collision detected with {otherCard}");
+        if (otherCard != null)
+        {
+            collidingCard = otherCard;
+        }
+    }
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        otherCard = collision.gameObject.GetComponent<Card>();
+        Debug.Log($"collision exited with {otherCard}");
+        if (otherCard != null)
+        {
+            collidingCard = null;
+        }
+    }
+    bool cardInteractionLogic()
+    {
+        if (collidingCard != null)
+        {
+            //Vector3 newPosition = collidingCard.transform.position;
+            //newPosition.y -= offset;
+            //this.transform.position = newPosition;            
+            Debug.Log("position set to other card");
+            return true;
+        }
+        else
+        {
+            Debug.Log("card null");
+            return false;
+            //Debug.Log("null card");
+        }
+    }
     // Update is called once per frame
     void Update()
     {
-        
+        if (isHeld)
+        {
+            Vector3 mousePosition = Input.mousePosition;
+            mousePosition.z = 50;
+            this.transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
+            front.sortingOrder = 1000;
+        }
+        else
+        {
+            front.sortingOrder = 0;
+        }
     }
 }
