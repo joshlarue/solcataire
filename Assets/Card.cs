@@ -105,20 +105,36 @@ public class Card : MonoBehaviour
 
     void OnMouseDown()
     {
-        isHeld = true;
-        Debug.Log($"Picked up {rank} of {suit}");
-        cardInteractionLogic();
+        originalPosition = this.transform.position;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
+        if (hit.collider != null)
+        {
+            if (hit.collider.gameObject == this.gameObject)
+            {
+                isHeld = true;
+                Debug.Log($"Picked up {rank} of {suit}");
+            }
+        }
     }
 
-private Card otherCard;
+    private Card otherCard;
     void OnMouseUp()
     {
         isHeld = false;
         if (cardInteractionLogic()) // if cardlogic returns true
-        {            
+        {
             Debug.Log("CARDLOGIC TRUE");
-            this.transform.position = otherCard.transform.position;
-            front.sortingOrder = 1000;
+
+            if (collidingCard != null)
+            { 
+                this.transform.position = collidingCard.transform.position - new Vector3(0, offset, 0);
+                front.sortingOrder = 999;
+            }
+            else
+            {
+                this.transform.position = originalPosition;
+            }
         }
         else
         {
@@ -174,7 +190,7 @@ private Card otherCard;
         }
         else
         {
-            front.sortingOrder = 0;
+            //front.sortingOrder = 0;
         }
     }
 }

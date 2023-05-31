@@ -66,7 +66,7 @@ public class Solitaire : MonoBehaviour
             for (int j = 0; j <= i; j++)
             {
                 GameObject card = createdCards[cardIndex++];
-                card.transform.position = stacks[i].transform.position - new Vector3(0, j * offset, j);//, Quaternion.identity;
+                card.transform.position = stacks[i].transform.position - new Vector3(0, j * offset, j);
                 //card.transform.SetSiblingIndex(j);
 
                 //cardIndex++;
